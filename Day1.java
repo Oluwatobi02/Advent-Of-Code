@@ -14,7 +14,7 @@ public class Day1 {
     public static void main(String[] args) {
       
       try {
-        File myObj = new File("day1.txt");
+        File myObj = new File("Day1.txt");
         Scanner reader = new Scanner(myObj);
         ArrayList<Integer> outerArray = new ArrayList<>(Arrays.asList());
 
